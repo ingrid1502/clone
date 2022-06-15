@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+.cabeçalho{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color:white;
+}
+.logo{
+    width: 100px;
+}
+.assinatura1{
+    background-color: red;
+    overflow: hidden;
+}
+.assinatura{
+    background-color: rgb(245, 238, 238);
+    color: rgb(6, 4, 4);
+    
+}
+.conteudo{
+    background-image:url("rato.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.título{
+    padding-top: 500px;
+    font-size: 50px;
+    margin-left: 30px;
+    color: white;
+}
+.sobre{
+    color:black;
+    margin-left: 30px;
+    padding-top: 20px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.sinopse{
+    margin-left: 30px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.elenco{
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 450px;
+}
+.rodapeimagem{
+    height: 100%;
+}
+.assistir{
+    background-color: black;
+    translate: 50% black;
+    margin-right:30px;
+}
